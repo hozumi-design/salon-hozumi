@@ -850,3 +850,50 @@ button {
     background-size: cover;
   }
 }
+
+/* ==========================================================================
+   Reserve placeholder page
+   ========================================================================== */
+
+.reserve-placeholder {
+  min-height: calc(100vh - 87px);
+  display: flex;
+  align-items: center;
+}
+
+.reserve-placeholder-inner {
+  max-width: 560px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.reserve-placeholder-title {
+  font-family: var(--font-heading);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.reserve-placeholder-text {
+  font-size: 14px;
+  color: var(--color-text-sub);
+  line-height: 1.9;
+}
+
+.reserve-placeholder-tel {
+  font-family: var(--font-heading);
+  font-size: 24px;
+  color: var(--color-accent-hover);
+  margin-top: 4px;
+}
+
+.reserve-placeholder-tel span {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 12.5px;
+  color: var(--color-text-sub);
+  margin-top: 4px;
+}
