@@ -1,0 +1,9 @@
+.DS_Store
+
+# 制作過程の作業ファイル(サイト本体には不要)
+Codex 画像 *.png
+Main.pdf
+Main-html.zip
+files.zip
+files/
+lumiere-lp-mockup.html

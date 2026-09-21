@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lumière | 小顔リフトアップ専門サロン</title>
+<meta name="description" content="Lumière(リュミエール)は、完全個室の小顔リフトアップ専門サロンです。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- TODO: STORES予約のページが発行されたら、"https://coubic.com/lumiere-salon" を実際の予約URLに置き換えてください -->
+
+<header class="header">
+  <div class="header-inner">
+    <a href="#" class="logo">Lumière</a>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#concept">コンセプト</a></li>
+        <li><a href="#menu">メニュー</a></li>
+        <li><a href="#voice">お客様の声</a></li>
+        <li><a href="#price">料金</a></li>
+        <li><a href="#faq">よくあるご質問</a></li>
+      </ul>
+    </nav>
+
+    <a href="https://coubic.com/lumiere-salon" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">無料カウンセリング予約</a>
+  </div>
+</header>
+
+<!-- 2. ヒーロー -->
+<section class="hero">
+  <div class="hero-slides">
+    <div class="hero-slide is-active" style="background-image: url('images/hero-01.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('images/hero-02.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('images/hero-03.jpg');"></div>
+  </div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow">FACIAL &amp; LIFT-UP PRIVATE SALON</p>
+    <h1 class="hero-title">時をためない、<br>透明感のある小顔へ。</h1>
+    <p class="hero-text">頬のたるみ、輪郭のぼやけ、表情のくすみ——。日々のケアでは届かない深部にアプローチする、完全個室のフェイシャル専門サロンです。</p>
+    <div class="hero-actions">
+      <a href="https://coubic.com/lumiere-salon" target="_blank" rel="noopener noreferrer" class="btn btn-primary">初回体験のご予約はこちら</a>
+      <a href="#menu" class="btn btn-outline btn-outline-white">メニューを見る</a>
+    </div>
+    <ul class="hero-info">
+      <li>完全予約制・個室</li>
+      <li>駅より徒歩4分</li>
+      <li>初回体験 ¥6,600</li>
+    </ul>
+  </div>
+
+  <div class="hero-pagination">
+    <button type="button" class="hero-page is-active" data-slide-index="0">01</button>
+    <button type="button" class="hero-page" data-slide-index="1">02</button>
+    <button type="button" class="hero-page" data-slide-index="2">03</button>
+  </div>
+</section>
+
+<!-- 3. フィロソフィーバンド -->
+<section class="philosophy">
+  <div class="philosophy-inner">
+    <span class="philosophy-line"></span>
+    <p class="philosophy-text">日常から少し離れ、自分のためだけに整える。<br>そんなプライベートサロンでありたいと考えています。</p>
+    <span class="philosophy-line"></span>
+  </div>
+</section>
+
+<!-- 4. お悩みセクション -->
+<section id="concept" class="section concept">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">
+        <svg class="leaf-icon" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M7 13C7 13 1 10.5 1 5.5C1 3 3 1 5.5 1C9 1 13 3.5 13 7C13 10 10.5 13 7 13Z" stroke="currentColor" stroke-width="1"/>
+          <path d="M2 12C4.5 9 6 6 7 1" stroke="currentColor" stroke-width="1"/>
+        </svg>
+        SUCH CONCERNS
+      </p>
+      <h2>こんなお悩み、ありませんか?</h2>
+    </div>
+
+    <div class="concept-grid">
+      <div class="concept-card">
+        <svg class="concept-icon" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M15 27C21.6274 27 27 21.6274 27 15C27 8.37258 21.6274 3 15 3C8.37258 3 3 8.37258 3 15C3 21.6274 8.37258 27 15 27Z" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M10 18C11.5 20 13 21 15 21C17 21 18.5 20 20 18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+        <h3>頬・フェイスラインのたるみ</h3>
+        <p>年齢とともに輪郭がぼやけてきた気がする</p>
+      </div>
+
+      <div class="concept-card">
+        <svg class="concept-icon" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M15 4C15 4 22 13 22 18.5C22 22.6421 18.866 26 15 26C11.134 26 8 22.6421 8 18.5C8 13 15 4 15 4Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+        </svg>
+        <h3>むくみやすい・血色がくすむ</h3>
+        <p>夕方になると顔が重だるく感じる</p>
+      </div>
+
+      <div class="concept-card">
+        <svg class="concept-icon" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M6 24C10 16 12 10 12 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M24 24C20 16 18 10 18 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M9 24H21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+        <h3>セルフケアの限界を感じる</h3>
+        <p>マッサージやコスメだけでは変化が乏しい</p>
+      </div>
+
+      <div class="concept-card">
+        <svg class="concept-icon" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M15 26C15 26 4 19.5 4 12C4 7.5 7.5 4.5 11 4.5C13 4.5 14.5 5.5 15 7C15.5 5.5 17 4.5 19 4.5C22.5 4.5 26 7.5 26 12C26 19.5 15 26 15 26Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+        </svg>
+        <h3>自分だけの時間が欲しい</h3>
+        <p>忙しい毎日の中でゆっくり整える時間がない</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. 特徴セクション -->
+<section class="section approach">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">
+        <svg class="leaf-icon" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M7 13C7 13 1 10.5 1 5.5C1 3 3 1 5.5 1C9 1 13 3.5 13 7C13 10 10.5 13 7 13Z" stroke="currentColor" stroke-width="1"/>
+          <path d="M2 12C4.5 9 6 6 7 1" stroke="currentColor" stroke-width="1"/>
+        </svg>
+        OUR APPROACH
+      </p>
+      <h2>Lumière が選ばれる3つの理由</h2>
+    </div>
+
+    <div class="approach-grid">
+      <div class="approach-card">
+        <span class="approach-number">01</span>
+        <h3>独自の小顔矯正メソッド</h3>
+        <p>一人ひとりの骨格と表情ぐせに合わせた、オーダーメイドの小顔矯正メソッドで内側から輪郭を引き上げます。</p>
+      </div>
+
+      <div class="approach-card">
+        <span class="approach-number">02</span>
+        <h3>完全個室のプライベート空間</h3>
+        <p>静かな個室で、肌・輪郭・心まで整える上質な時間を。他のお客様と顔を合わせない、一組貸切のご案内です。</p>
+      </div>
+
+      <div class="approach-card">
+        <span class="approach-number">03</span>
+        <h3>経験豊富な専属セラピスト</h3>
+        <p>一人ひとりの骨格・肌状態に合わせてオーダーメイドの施術プランをご提案します。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. メニューセクション -->
+<section id="menu" class="section menu">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">
+        <svg class="leaf-icon" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M7 13C7 13 1 10.5 1 5.5C1 3 3 1 5.5 1C9 1 13 3.5 13 7C13 10 10.5 13 7 13Z" stroke="currentColor" stroke-width="1"/>
+          <path d="M2 12C4.5 9 6 6 7 1" stroke="currentColor" stroke-width="1"/>
+        </svg>
+        MENU
+      </p>
+      <h2>施術メニュー</h2>
+    </div>
+
+    <div class="menu-grid">
+      <div class="menu-card">
+        <div class="menu-card-photo" style="background-image: url('images/menu-01-treatment.jpg');"></div>
+        <div class="menu-card-body">
+          <h3 class="menu-card-title">小顔リフトアップ<br>フェイシャル</h3>
+          <span class="menu-card-divider"></span>
+          <p class="menu-card-desc">骨格矯正＋リンパドレナージュ</p>
+          <p class="menu-card-price">90分 ¥13,200</p>
+          <a href="https://coubic.com/lumiere-salon" target="_blank" rel="noopener noreferrer" class="btn btn-primary menu-card-btn">ご予約はコチラ</a>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <div class="menu-card-photo" style="background-image: url('images/menu-02-counseling.jpg');"></div>
+        <div class="menu-card-body">
+          <h3 class="menu-card-title">むくみリセット<br>ケア</h3>
+          <span class="menu-card-divider"></span>
+          <p class="menu-card-desc">フェイシャルリンパドレナージュ</p>
+          <p class="menu-card-price">60分 ¥9,900</p>
+          <a href="https://coubic.com/lumiere-salon" target="_blank" rel="noopener noreferrer" class="btn btn-primary menu-card-btn">ご予約はコチラ</a>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <div class="menu-card-photo" style="background-image: url('images/menu-03-room.jpg');"></div>
+        <div class="menu-card-body">
+          <h3 class="menu-card-title">ヘッド＆デコルテ<br>ほぐし</h3>
+          <span class="menu-card-divider"></span>
+          <p class="menu-card-desc">頭皮・鎖骨周りの筋膜リリース</p>
+          <p class="menu-card-price">45分 ¥8,250</p>
+          <a href="https://coubic.com/lumiere-salon" target="_blank" rel="noopener noreferrer" class="btn btn-primary menu-card-btn">ご予約はコチラ</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. お客様の声セクション -->
+<section id="voice" class="section voice">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">VOICE</p>
+      <h2>お客様の声</h2>
+    </div>
+
+    <div class="voice-stats">
+      <div class="voice-stat">
+        <p class="voice-stat-number">3,200<span>名+</span></p>
+        <p class="voice-stat-label">累計ご来店数</p>
+      </div>
+      <div class="voice-stat">
+        <p class="voice-stat-number">96<span>%</span></p>
+        <p class="voice-stat-label">リピート率</p>
+      </div>
+      <div class="voice-stat">
+        <p class="voice-stat-number">4.8</p>
+        <p class="voice-stat-label">満足度アンケート平均</p>
+      </div>
+    </div>
+
+    <div class="voice-grid">
+      <div class="voice-card">
+        <p class="voice-card-meta">40代・会社員 A.Kさま</p>
+        <p class="voice-card-text">通うたびに輪郭がすっきりして、写真に写る顔つきが変わったねと言われるように。個室なので周りを気にせず通えるのも嬉しいです。</p>
+      </div>
+      <div class="voice-card">
+        <p class="voice-card-meta">30代・美容関係 S.Mさま</p>
+        <p class="voice-card-text">夕方のむくみがひどかったのですが、施術後は朝のような軽さに。丁寧なカウンセリングで安心して任せられました。</p>
+      </div>
+      <div class="voice-card">
+        <p class="voice-card-meta">40代・自営業 Y.Tさま</p>
+        <p class="voice-card-text">自分の骨格に合わせた提案がとても納得感があり、月1回の自分時間として楽しみになっています。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. 料金セクション -->
+<section id="price" class="section price">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">PRICE</p>
+      <h2>料金プラン</h2>
+    </div>
+
+    <div class="price-grid">
+      <div class="price-card">
+        <p class="price-card-name">初回体験</p>
+        <p class="price-card-value">¥6,600<span>（60分）</span></p>
+        <p class="price-card-desc">まずは小顔リフトアップ体験と丁寧なカウンセリングを。</p>
+        <a href="https://coubic.com/lumiere-salon" target="_blank" rel="noopener noreferrer" class="btn btn-outline">体験を予約する</a>
+      </div>
+
+      <div class="price-card is-featured">
+        <span class="price-card-badge">おすすめ</span>
+        <p class="price-card-name">月4回コース</p>
+        <p class="price-card-value">¥88,000<span>（月額）</span></p>
+        <p class="price-card-desc">1回あたり¥22,000。変化を積み重ねたい方の定番コースです。</p>
+        <a href="https://coubic.com/lumiere-salon" target="_blank" rel="noopener noreferrer" class="btn btn-primary">このコースで相談する</a>
+      </div>
+
+      <div class="price-card">
+        <p class="price-card-name">月8回コース</p>
+        <p class="price-card-value">¥152,000<span>（月額）</span></p>
+        <p class="price-card-desc">1回あたり¥19,000。短期集中で理想の輪郭を目指す方に。</p>
+        <a href="https://coubic.com/lumiere-salon" target="_blank" rel="noopener noreferrer" class="btn btn-outline">このコースで相談する</a>
+      </div>
+    </div>
+
+    <p class="price-note">※価格はすべて税込表示です。</p>
+  </div>
+</section>
+
+<!-- 9. よくある質問セクション -->
+<section id="faq" class="section faq">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">FAQ</p>
+      <h2>よくあるご質問</h2>
+    </div>
+
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>
+          <span>施術当日はメイクをしたまま行っても大丈夫ですか?</span>
+          <span class="faq-icon">＋</span>
+        </summary>
+        <p class="faq-answer">はい、問題ございません。施術前にクレンジングをご用意しておりますので、そのままお越しいただけます。</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>効果はどのくらいの期間で感じられますか?</span>
+          <span class="faq-icon">＋</span>
+        </summary>
+        <p class="faq-answer">初回から輪郭の変化を感じられる方が多いですが、持続的な変化には月4回程度、3か月ほどの継続をおすすめしています。</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>駐車場はありますか?</span>
+          <span class="faq-icon">＋</span>
+        </summary>
+        <p class="faq-answer">専用駐車場を2台分ご用意しております。満車の場合は近隣の提携駐車場をご案内いたします。</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>キャンセルはいつまでに連絡すればよいですか?</span>
+          <span class="faq-icon">＋</span>
+        </summary>
+        <p class="faq-answer">前日18時までにご連絡をお願いしております。当日キャンセルはキャンセル料が発生する場合がございます。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- 10. 最終CTAセクション -->
+<section id="reserve" class="reserve">
+  <svg class="reserve-decor" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M0 400C100 350 120 250 80 150C60 100 20 60 -20 40" stroke="white" stroke-width="2"/>
+    <path d="M30 400C110 370 150 300 130 220" stroke="white" stroke-width="2"/>
+    <path d="M-30 320C60 300 100 260 90 200" stroke="white" stroke-width="2"/>
+  </svg>
+
+  <div class="reserve-inner">
+    <p class="eyebrow">RESERVATION</p>
+    <h2>まずは無料カウンセリングから、<br>あなたの理想の輪郭を見つけませんか。</h2>
+    <p class="reserve-text">静かな個室で、肌・輪郭・心まで整える上質な時間を。</p>
+    <a href="https://coubic.com/lumiere-salon" target="_blank" rel="noopener noreferrer" class="btn btn-primary reserve-btn">WEBで予約する</a>
+    <p class="reserve-tel">お電話でのご予約：0000-00-0000(10:00〜19:00 火曜定休)</p>
+  </div>
+</section>
+
+<!-- 11. フッター -->
+<footer class="footer">
+  <div class="footer-info">
+    <p class="footer-logo">Lumière</p>
+    <p class="footer-address">長野県松本市中央2-3-4 松本中央ビル3F</p>
+  </div>
+
+  <div class="footer-photos">
+    <span class="footer-photo">Photo</span>
+    <span class="footer-photo">Photo</span>
+    <span class="footer-photo">Photo</span>
+  </div>
+
+  <ul class="footer-links">
+    <li><a href="#">Instagram</a></li>
+    <li><a href="#">LINE公式</a></li>
+    <li><a href="#">特定商取引法に基づく表記</a></li>
+  </ul>
+
+  <p class="footer-copyright">© Lumière</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
